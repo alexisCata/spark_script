@@ -1,4 +1,4 @@
---XX marca campos con alias cambiados para adecuarlos a SQL original Fran por incidencia Fernando 20170421
+
 select *
 
 from
