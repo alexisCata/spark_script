@@ -1,10 +1,6 @@
 from manager.spark_manager import SparkSession
-from settings import URL, DRIVER
+from settings import URL, DRIVER, USER, PASS
 from tables import tables
-
-# secret_settings
-user = "kpiuser"
-password = "Kpiuser00"
 
 
 EXCHANGE_EXC = 'R'
@@ -21,8 +17,8 @@ def load_dataframe(table):
     dataframe = session.read.jdbc(url=URL,
                                   table=table,
                                   properties={"driver": DRIVER,
-                                              "user": user,
-                                              "password": password})
+                                              "user": USER,
+                                              "password": PASS})
     return dataframe
 
 
