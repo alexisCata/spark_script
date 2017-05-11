@@ -1,11 +1,5 @@
 
 
-
-Booking Interface.sql
-
-/* Formatted on 28/03/2017 16:24:37 (QP5 v5.163.1008.3004) */
--- Booking interface
-
 SELECT r.grec_seq_rec || '-' || r.seq_reserva interface_id,
        -- re.semp_cod_emp operative_company,
        -- re.sofi_cod_ofi operative_office,
