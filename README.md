@@ -1,4 +1,4 @@
-### IFACE EXTRACTIONS ###
+### PYSPARK EXTRACTIONS ###
 
 This project is in charge of the daily booking extracctions. 
 It connects to a Redshift database using Psycopg2 and Pyspark. It queries de db, retrieves data, makes some transformations and returns it as ...
@@ -15,7 +15,3 @@ It connects to a Redshift database using Psycopg2 and Pyspark. It queries de db,
 ```shell
 /bin/spark-submit --class ./iface_extractions/query arg_date1 arg_date2
 ```
-
-### Who do I talk to? ###
-
-* a.flores@cathedralsw.com
